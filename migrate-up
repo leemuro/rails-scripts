@@ -1,0 +1,5 @@
+#!/bin/bash
+
+RAILS_ENV=development rake db:migrate
+RAILS_ENV=test rake db:migrate
+RAILS_ENV=development
